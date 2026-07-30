@@ -330,7 +330,8 @@
         padding: 1.45rem;
       }
       .contact-list { display: grid; gap: 0.95rem; margin-top: 1.2rem; }
-      .contact-item { display: flex; gap: 0.8rem; align-items: flex-start; }
+      .contact-item { display: flex; gap: 0.8rem; align-items: flex-start; color: inherit; text-decoration: none; }
+      .contact-item:hover { opacity: 0.9; }
       .form { display: grid; gap: 0.9rem; }
       label {
         font-family: "Cinzel", serif;
@@ -541,9 +542,9 @@
                 <p class="lead" style="margin-left:0;margin-right:0;text-align:left;">Ready to begin your transformation? Reach out to us to schedule a personalized consultation and treatment.</p>
               </div>
               <div class="contact-list">
-                <div class="contact-item"><span>📞</span><div><strong>Call us</strong><br />0968 303 3788</div></div>
-                <div class="contact-item"><span>📍</span><div><strong>Visit us</strong><br />Ground Level, Building 2, Sta Lucia Mall, Cainta, Rizal</div></div>
-                <div class="contact-item"><span>✉️</span><div><strong>Email us</strong><br />elixircainta@gmail.com</div></div>
+                <a class="contact-item" href="tel:+639683033788"><span>📞</span><div><strong>Call us</strong><br />0968 303 3788</div></a>
+                <a class="contact-item" href="https://www.google.com/maps/search/?api=1&query=Ground%20Level,%20Building%202,%20Sta%20Lucia%20Mall,%20Cainta,%20Rizal" target="_blank" rel="noopener noreferrer"><span>📍</span><div><strong>Visit us</strong><br />Ground Level, Building 2, Sta Lucia Mall, Cainta, Rizal</div></a>
+                <a class="contact-item" href="mailto:elixircainta@gmail.com"><span>✉️</span><div><strong>Email us</strong><br />elixircainta@gmail.com</div></a>
               </div>
             </div>
             <form class="form" id="bookingForm">
